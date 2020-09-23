@@ -1,0 +1,65 @@
+
+            body {
+                background-image: url("images/bg-img.svg");
+                background-repeat: no-repeat;
+                background-position: center;
+                background-attachment: fixed;
+                font-family: 'Roboto', sans-serif;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                padding-top: 70px;
+            }
+            .theme-textarea {
+                height: 200px;
+            }
+            .bg-blue-theme {
+                background: linear-gradient(123.51deg, #2181B0 1.04%, #005E8B 101.59%);
+                border-radius: 5px;
+                box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+                opacity: 0.9;
+            }
+            nav.navbar .nav-item > .nav-link {
+                color: #FFFFFF;
+                font-size: 28px;
+            }
+            h1 {
+                font-size: 70px;
+            }
+            .text-ass {
+                color: #A7A7A7;
+            }
+            .custom-file-label::after {
+                background-image: url("images/icon-folder.svg");
+                background-repeat: no-repeat;
+                background-position: center;
+                content: "" !important;
+                width: 80px;
+                background-color: transparent;
+                border: 0;
+            }
+            .btn-info-theme {
+                background: #3BC6F2;
+            }
+            @media only screen and (min-width: 992px) {
+                .navbar-expand-lg .navbar-nav .nav-link {
+                    padding-right: 1rem;
+                    padding-left: 1rem;
+                }
+            }
+            @media only screen and (max-width: 991px) {
+                body {
+                    font-size: 20px;
+                }
+                h1 {
+                    font-size: 60px;
+                }
+            }
+            @media only screen and (max-width: 575px) {
+                body {
+                    font-size: 16px;
+                }
+                h1 {
+                    font-size: 32px;
+                }
+            }
