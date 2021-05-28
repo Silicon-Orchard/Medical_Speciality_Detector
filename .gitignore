@@ -4,10 +4,12 @@ medspec/__pycache__/
 static/
 .idea/
 .ipynb_checkpoints/
+
 transcription_samples.csv
 config.json
 training_data/*
 !training_data/.gitkeep
+
 ensemble_accuracy_test.ipynb
 spam.csv
 transcription_test.csv
@@ -21,3 +23,5 @@ orthopedic.csv
 spam.csv
 surgery.csv
 
+.python-version
+update_server.sh
