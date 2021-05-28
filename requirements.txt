@@ -4,7 +4,6 @@ asgiref==3.2.10
 asn1crypto==0.24.0
 astor==0.8.0
 astunparse==1.6.3
-attrs==19.1.0
 Automat==20.2.0
 backcall==0.1.0
 base58==2.1.0
